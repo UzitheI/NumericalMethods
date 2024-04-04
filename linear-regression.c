@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 #define error 0.001
 int main()
@@ -36,6 +35,6 @@ else
 {
 printf("\nNo Solution");
 }
-getch();
+printf("\n**Program written by Ujjwal Puri\n");
 return 0;
 }
