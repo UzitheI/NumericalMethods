@@ -21,5 +21,6 @@ int main()
     n--;
    }
     printf("Value of the polynomial p(%f)=%f",x,b[0]);
+    printf("\n**Program written By Ujjwal Puri**\n");
     return 0;
 }
