@@ -1,6 +1,5 @@
 //C Program to implement the polynomial regression 
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 int main()
 {
@@ -66,7 +65,6 @@ for(i=2;i<=m;i++)
 {
     printf("+%f x^%d",z[i],i);
 }
-getch();
 return 0;
 
 }
