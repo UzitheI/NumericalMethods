@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 float x[10], f[10], y, sum=0.0, l;
@@ -27,6 +26,6 @@ l=l*(y-x[j])/(x[i]-x[j]);
 sum=sum+l*f[i];
 }
 printf("\nInterpolation value at %f=%f", y, sum);
-getch();
+printf("\n**Program printed By Ujjwal Puri\n");
 return 0;
 }
