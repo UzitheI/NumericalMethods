@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
 float f(float x)
 {
@@ -25,5 +24,5 @@ sum=sum+2*f(x);
 }
 sum=sum*h/2;
 printf("Integral value of f(x)=%f ", sum);
-getch();
+printf("\n**Printed By Ujjwal Puri\n");
 }
